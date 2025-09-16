@@ -155,13 +155,13 @@
                         </annotationProcessorPaths>
                     </configuration>
                 </plugin>
+
                 <plugin>
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-maven-plugin</artifactId>
                     <configuration>
-                        <mainClass>com.penta.accinventoryservice.infrastructure.InfrastructureApplication</mainClass>
+                        <mainClass>com.hexagonal.architecture.infrastructure.InfrastructureApplication</mainClass>
                     </configuration>
-
                     <executions>
                         <execution>
                             <goals>
@@ -173,4 +173,5 @@
             </plugins>
         </pluginManagement>
     </build>
+
 </project>
